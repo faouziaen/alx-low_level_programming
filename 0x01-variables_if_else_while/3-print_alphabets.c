@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase, and then in uppercase, followed by a new line
+ * main - Prints the alphabet in lowercase,
+ *and then in uppercase, followed by a new line
  *
- * Return always to 0
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -15,14 +16,13 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	while (b <= 98)
+	while (b <= 90)
 	{
 		putchar(b);
 		b++;
 	}
 	putchar('\n');
-
-	return(0);
+	return (0);
 
 }
 
