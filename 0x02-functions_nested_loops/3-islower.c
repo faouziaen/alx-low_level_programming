@@ -2,8 +2,9 @@
 
 /**
  * _islower- Write a function that checks for lowercase character
- *Returns 1 if c is lowercase
- *Returns 0 otherwise
+ *Return: Returns: 1 if c is lowercase
+ * c: is a parameter of the function
+ * Returns: 0 otherwise
  */
 int _islower(int c)
 {
@@ -12,9 +13,8 @@ int _islower(int c)
 		return (1);
 	}
 	else
-	{	
+	{
 		return (0);
 	}
-        _putchar('\n');
+	_putchar('\n');
 }
-
