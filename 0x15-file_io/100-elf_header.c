@@ -217,8 +217,8 @@ void printElfType(unsigned int type, unsigned char *identification)
 
 /**
  * printElfEntryPoint - Prints the entry point of an ELF header.
- * @entryPoint: The address of the ELF entry point.
- * @identification: A pointer to an array containing the ELF id bytes.
+ * @Point: The address of the ELF entry point.
+ * @id: A pointer to an array containing the ELF id bytes.
  */
 void printElfEntryPoint(unsigned long int Point, unsigned char *id)
 {
