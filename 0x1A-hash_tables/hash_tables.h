@@ -51,11 +51,11 @@ typedef struct shash_table_s shash_table_t;
  */
 struct shash_node_s
 {
-    char *key;
-    char *value;
-    struct shash_node_s *next;
-    struct shash_node_s *sprev;
-    struct shash_node_s *snext;
+	char *key;
+	char *value;
+	struct shash_node_s *next;
+	struct shash_node_s *sprev;
+	struct shash_node_s *snext;
 };
 
 /**
@@ -70,10 +70,10 @@ struct shash_node_s
  */
 struct shash_table_s
 {
-    unsigned long int size;
-    shash_node_t **array;
-    shash_node_t *shead;
-    shash_node_t *stail;
+	unsigned long int size;
+	shash_node_t **array;
+	shash_node_t *shead;
+	shash_node_t *stail;
 };
 hash_table_t *hash_table_create(unsigned long int size);
 unsigned long int hash_djb2(const unsigned char *str);
